@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LocalStorage Test – 1 MB pro Klick</title>
+    <style>
+        #progress-container {
+            width: 100%;
+            background-color: #eee;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        #progress-bar {
+            width: 0%;
+            height: 25px;
+            background-color: #4caf50;
+            text-align: center;
+            color: white;
+            line-height: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>LocalStorage Test – 1 MB pro Klick</h1>
+
+    <button id="add1MB">1 MB hinzufügen</button>
+    <button id="check">Größe prüfen</button>
+
+    <div id="progress-container">
+        <div id="progress-bar">0%</div>
+    </div>
+
+    <p id="output"></p>
+
+    <script>
+        const output = document.getElementById('output');
+        const progressBar = document.getElementById('progress-bar');
+        const LIMIT = 5 * 1024 * 1024; // 5 MB
+
+        // Größe in Bytes berechnen (UTF-16)
+        function getLocalStorageSize() {
+            let total = 0;
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                const value = localStorage.getItem(key);
+                total += key.length * 2 + value.length * 2; // UTF-16
+            }
+            return total;
+        }
+
+        // Fortschrittsbalken aktualisieren
+        function updateProgress() {
+            const size = getLocalStorageSize();
+            let percent = Math.min((size / LIMIT) * 100, 100);
+            progressBar.style.width = percent + '%';
+            progressBar.textContent = Math.floor(percent) + '%';
+            return size;
+        }
+
+        // Größe prüfen
+        function checkLimit() {
+            const size = updateProgress();
+            if (size >= LIMIT) {
+                output.textContent = `⚠️ Limit erreicht! Größe: ${size} Bytes`;
+            } else {
+                output.textContent = `✅ LocalStorage Größe: ${size} Bytes`;
+            }
+        }
+
+        // 1 MB pro Klick hinzufügen (in kleineren Blöcken)
+        document.getElementById('add1MB').addEventListener('click', () => {
+            const key = 'data_' + Date.now();
+            const blockSize = 1024 * 50; // 50 KB pro Block
+            const blocks = 20; // 20 * 50 KB = 1 MB
+            let value = '';
+
+            try {
+                for (let i = 0; i < blocks; i++) {
+                    value += 'x'.repeat(blockSize / 2); // UTF-16 → 1 Zeichen = 2 Bytes
+                }
+                localStorage.setItem(key, value);
+                checkLimit();
+            } catch (e) {
+                if (e.name === 'QuotaExceededError') {
+                    console.warn(e);
+                    output.textContent = '❌ QuotaExceededError: Limit erreicht!';
+                    updateProgress();
+                } else {
+                    console.error(e);
+                }
+            }
+        });
+
+        // Größe prüfen Button
+        document.getElementById('check').addEventListener('click', checkLimit);
+
+        // Initialen Fortschritt setzen
+        updateProgress();
+    </script>
+</body>
+
+</html>
