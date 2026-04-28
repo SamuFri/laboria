@@ -1,56 +1,15 @@
 ## Aufgabe 1
 
-Erreiche im Spiel 10000 Paperclips so schnell wie möglich.
-https://www.decisionproblem.com/paperclips/
+In Webspeicher - LocalStorage und dann aufklappen und dann auf decisionproblem.
+Dann wird einem der LocalSotrage angzeigt. 
 
 
-### Aufgabe 1.1
-Erreiche im Spiel 10000 Paperclips. Löse das Spiel mithilfe von JavaScript Code in dem den zu Localstorage manipulierst.
-Dokumentiere deine Lösung/Code.
+{"resetFlag":2,"dismantle":0,"endTimer1":0,"endTimer2":0,"endTimer3":0,"endTimer4":0,"endTimer5":0,"endTimer6":0,"testFlag":0,"finalClips":0,"wireBuyerStatus":1,"wirePriceTimer":187,"qFade":-47.226999999980634,"autoTourneyStatus":1,"driftKingMessageCost":1,"sliderPos":0,"tempOps":0,"standardOps":0,"opFade":0,"entertainCost":10000,"boredomLevel":0,"boredomFlag":0,"boredomMsg":0,"unitSize":0,"driftersKilled":0,"battleEndDelay":0,"battleEndTimer":100,"masterBattleClock":0,"honorCount":0,"threnodyTitle":"Durenstein 1","bonusHonor":0,"honorReward":0,"resultsTimer":0,"resultsFlag":0,"honor":0,"maxTrust":20,"maxTrustCost":91117.99,"disorgCounter":0,"disorgFlag":0,"synchCost":5000,"disorgMsg":0,"threnodyCost":50000,"farmRate":50,"batterySize":10000,"factoryPowerRate":200,"dronePowerRate":1,"farmLevel":0,"batteryLevel":0,"farmCost":10000000,"batteryCost":1000000,"storedPower":0,"powMod":0,"farmBill":0,"batteryBill":0,"momentum":0,"swarmFlag":0,"swarmStatus":7,"swarmGifts":0,"nextGift":0,"giftPeriod":125000,"giftCountdown":125000,"elapsedTime":0,"maxFactoryLevel":0,"maxDroneLevel":0,"wirePriceCounter":224,"wireBasePrice":18.778277554070982,"egoFlag":0,"autoTourneyFlag":0,"tothFlag":0,"incomeTracker":[0.52,0.52,0,1.04,0,0.52,0,0,0,0.52],"qChips":[{"waveSeed":0.1,"value":0,"active":0},{"waveSeed":0.2,"value":0,"active":0},{"waveSeed":0.3,"value":0,"active":0},{"waveSeed":0.4,"value":0,"active":0},{"waveSeed":0.5,"value":0,"active":0},{"waveSeed":0.6,"value":0,"active":0},{"waveSeed":0.7,"value":0,"active":0},{"waveSeed":0.8,"value":0,"active":0},{"waveSeed":0.9,"value":0,"active":0},{"waveSeed":1,"value":0,"active":0}],"stocks":[],"battles":[],"battleNumbers":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"clips":10000,"unusedClips":499.6599999997078,"clipRate":0.9999999999990905,"clipRateTemp":0.27999999999974534,"prevClips":499.6499999997078,"clipRateTracker":27,"clipmakerRate":0,"clipmakerLevel":1,"clipperCost":6.1,"unsoldClips":66.85999999999609,"funds":107.07,"margin":0.26,"wire":500.3400000003917,"wireCost":14,"adCost":100,"demand":3.076923076923077,"clipsSold":432.80000000000024,"avgRev":0.20394927314834474,"ticks":48227,"marketing":1,"marketingLvl":1,"x":100,"clippperCost":5,"processors":1,"memory":1,"operations":0,"trust":2,"nextTrust":3000,"transaction":0.52,"clipperBoost":1,"blinkCounter":0,"creativity":0,"creativityOn":false,"safetyProjectOn":false,"boostLvl":0,"wirePurchase":0,"wireSupply":1000,"marketingEffectiveness":1,"milestoneFlag":2,"bankroll":0,"fib1":2,"fib2":3,"strategyEngineFlag":0,"investmentEngineFlag":0,"revPerSecFlag":0,"compFlag":0,"projectsFlag":0,"autoClipperFlag":1,"megaClipperFlag":0,"megaClipperCost":500,"megaClipperLevel":0,"megaClipperBoost":1,"creativitySpeed":1,"creativityCounter":0,"wireBuyerFlag":0,"demandBoost":1,"humanFlag":1,"trustFlag":1,"nanoWire":0,"creationFlag":0,"wireProductionFlag":0,"spaceFlag":0,"factoryFlag":0,"harvesterFlag":0,"wireDroneFlag":0,"factoryLevel":0,"factoryBoost":1,"droneBoost":1,"availableMatter":6e+27,"acquiredMatter":0,"processedMatter":0,"harvesterLevel":0,"wireDroneLevel":0,"factoryCost":100000000,"harvesterCost":1000000,"wireDroneCost":1000000,"factoryRate":1000000000,"harvesterRate":26180337,"wireDroneRate":16180339,"harvesterBill":0,"wireDroneBill":0,"factoryBill":0,"probeCount":0,"totalMatter":3e+55,"foundMatter":6e+27,"qFlag":0,"qClock":0,"qChipCost":10000,"nextQchip":0,"bribe":1000000,"battleFlag":0,"portfolioSize":0,"stockID":0,"secTotal":0,"portTotal":0,"sellDelay":4892,"riskiness":7,"maxPort":5,"m":0,"investLevel":0,"investUpgradeCost":100,"stockGainThreshold":0.5,"ledger":0,"stockReportCounter":0,"tourneyCost":1000,"tourneyLvl":1,"stratCounter":0,"roundNum":0,"hMove":1,"vMove":1,"hMovePrev":1,"vMovePrev":1,"aa":0,"ab":0,"ba":0,"bb":0,"rounds":0,"currentRound":0,"rCounter":0,"tourneyInProg":0,"winnerPtr":0,"high":0,"pick":"10","yomi":0,"yomiBoost":1,"probeSpeed":0,"probeNav":0,"probeRep":0,"partialProbeSpawn":0,"probeHaz":0,"partialProbeHaz":0,"probesLostHaz":0,"probesLostDrift":0,"probesLostCombat":0,"probeFac":0,"probeWire":0,"probeCombat":0,"attackSpeed":0.2,"battleSpeed":0.2,"attackSpeedFlag":0,"attackSpeedMod":0.1,"probeDescendents":0,"drifterCount":0,"warTrigger":1000000,"battleID":0,"battleName":"foo","battleNameFlag":0,"maxBattles":1,"battleClock":0,"battleAlarm":10,"outcomeTimer":150,"drifterCombat":1.75,"probeTrust":0,"probeUsedTrust":0,"probeTrustCost":500,"probeLaunchLevel":0,"probeCost":100000000000000000}
 
-## Aufgabe 2 - Voller Speicher
-Öffne die Datei fill_localstorage.html - welcher Fehler wird in der Konsole ausgegeben bei vollem Speicher.
-Klicke so oft wie du kannst auf den Button bei unterschiedlichen Browsern gibt es unterschiedliche Speicherkapazitäten.
-
-## Aufgabe 3 - Dein Spiel
-Dies soll ein SPiel sien bei dem ein Schüler lernt verschiedene Praktiken in der Frontendprogrammierung umzusetzen.
-Sie sollen localsotrage, sessionstorage sowie die IndexDB lernen. Ebenso die Guards. Alles geschieht in Angular.
-
-Das Szenario der Aufgabe lautet so:
-
-Du bist Entwickler und übernimmst die Firma "Clickomania" und deren unveröffentlichen Spiels storage-hunt.
-
-Die Schüler sollen eine Webseite bekommen von der Firma Clickomania und deren Spiels. Die Roadmap Steps sollen dann sozusagen die Aufgaben sein. Kannst du mir so eine schicke Spiele seite erstellen mit bootstrap und schicken design. 
-Vllt noch als Klickercount anderes Thema
-
-Das wäre die Roadmap
-Step1: Save Game
-- Localstorage -> Speichert aktuellen Klicker Count
-
-Step2: Multiplier
-- Sessionstorage -> Bonus sobald man 1min online ist -> Klicker Count 2
-    - Wenn 2min Online soll der Klicker Count auf 4 gehen
-
-Step3: Diamanten 
-    - Button - Konvertiere 100 Klicks zu Diamanten -> neuer Localstorage Eintrag
-
-Step4: Updates
-- Upgrades sind in der Indexed DB gespeichert
-    - Zeige alle Upgrades in der Upgrade-list an
-    - Admin Tab, erstellt neue Updates
-
-Step5: Manufaktur - Guard einführung [Zusammen] - Neuer Tab taucht auf.
-- Tab für Automatische Clicker count erhöhung
-
-Step6: PWA [Zusammen]
-
-Step7: Suprise - Eigen Aufgabe
-Wie gehts weiter - Geschichte - Errungenschaften - Sonstiges - bleibt gespannt
-
-Interne Dokumente zu dem Spiel. Readme + Zip File
+## 1.1.
+localStorage.setItem('saveGame', JSON.stringify({"resetFlag":2,"dismantle":0,"endTimer1":0,"endTimer2":0,"endTimer3":0,"endTimer4":0,"endTimer5":0,"endTimer6":0,"testFlag":0,"finalClips":0,"wireBuyerStatus":1,"wirePriceTimer":187,"qFade":-47.226999999980634,"autoTourneyStatus":1,"driftKingMessageCost":1,"sliderPos":0,"tempOps":0,"standardOps":0,"opFade":0,"entertainCost":10000,"boredomLevel":0,"boredomFlag":0,"boredomMsg":0,"unitSize":0,"driftersKilled":0,"battleEndDelay":0,"battleEndTimer":100,"masterBattleClock":0,"honorCount":0,"threnodyTitle":"Durenstein 1","bonusHonor":0,"honorReward":0,"resultsTimer":0,"resultsFlag":0,"honor":0,"maxTrust":20,"maxTrustCost":91117.99,"disorgCounter":0,"disorgFlag":0,"synchCost":5000,"disorgMsg":0,"threnodyCost":50000,"farmRate":50,"batterySize":10000,"factoryPowerRate":200,"dronePowerRate":1,"farmLevel":0,"batteryLevel":0,"farmCost":10000000,"batteryCost":1000000,"storedPower":0,"powMod":0,"farmBill":0,"batteryBill":0,"momentum":0,"swarmFlag":0,"swarmStatus":7,"swarmGifts":0,"nextGift":0,"giftPeriod":125000,"giftCountdown":125000,"elapsedTime":0,"maxFactoryLevel":0,"maxDroneLevel":0,"wirePriceCounter":224,"wireBasePrice":18.778277554070982,"egoFlag":0,"autoTourneyFlag":0,"tothFlag":0,"incomeTracker":[0.52,0.52,0,1.04,0,0.52,0,0,0,0.52],"qChips":[{"waveSeed":0.1,"value":0,"active":0},{"waveSeed":0.2,"value":0,"active":0},{"waveSeed":0.3,"value":0,"active":0},{"waveSeed":0.4,"value":0,"active":0},{"waveSeed":0.5,"value":0,"active":0},{"waveSeed":0.6,"value":0,"active":0},{"waveSeed":0.7,"value":0,"active":0},{"waveSeed":0.8,"value":0,"active":0},{"waveSeed":0.9,"value":0,"active":0},{"waveSeed":1,"value":0,"active":0}],"stocks":[],"battles":[],"battleNumbers":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"clips":1000099,"unusedClips":499.6599999997078,"clipRate":0.9999999999990905,"clipRateTemp":0.27999999999974534,"prevClips":499.6499999997078,"clipRateTracker":27,"clipmakerRate":0,"clipmakerLevel":1,"clipperCost":6.1,"unsoldClips":66.85999999999609,"funds":107.07,"margin":0.26,"wire":500.3400000003917,"wireCost":14,"adCost":100,"demand":3.076923076923077,"clipsSold":432.80000000000024,"avgRev":0.20394927314834474,"ticks":48227,"marketing":1,"marketingLvl":1,"x":100,"clippperCost":5,"processors":1,"memory":1,"operations":0,"trust":2,"nextTrust":3000,"transaction":0.52,"clipperBoost":1,"blinkCounter":0,"creativity":0,"creativityOn":false,"safetyProjectOn":false,"boostLvl":0,"wirePurchase":0,"wireSupply":1000,"marketingEffectiveness":1,"milestoneFlag":2,"bankroll":0,"fib1":2,"fib2":3,"strategyEngineFlag":0,"investmentEngineFlag":0,"revPerSecFlag":0,"compFlag":0,"projectsFlag":0,"autoClipperFlag":1,"megaClipperFlag":0,"megaClipperCost":500,"megaClipperLevel":0,"megaClipperBoost":1,"creativitySpeed":1,"creativityCounter":0,"wireBuyerFlag":0,"demandBoost":1,"humanFlag":1,"trustFlag":1,"nanoWire":0,"creationFlag":0,"wireProductionFlag":0,"spaceFlag":0,"factoryFlag":0,"harvesterFlag":0,"wireDroneFlag":0,"factoryLevel":0,"factoryBoost":1,"droneBoost":1,"availableMatter":6e+27,"acquiredMatter":0,"processedMatter":0,"harvesterLevel":0,"wireDroneLevel":0,"factoryCost":100000000,"harvesterCost":1000000,"wireDroneCost":1000000,"factoryRate":1000000000,"harvesterRate":26180337,"wireDroneRate":16180339,"harvesterBill":0,"wireDroneBill":0,"factoryBill":0,"probeCount":0,"totalMatter":3e+55,"foundMatter":6e+27,"qFlag":0,"qClock":0,"qChipCost":10000,"nextQchip":0,"bribe":1000000,"battleFlag":0,"portfolioSize":0,"stockID":0,"secTotal":0,"portTotal":0,"sellDelay":4892,"riskiness":7,"maxPort":5,"m":0,"investLevel":0,"investUpgradeCost":100,"stockGainThreshold":0.5,"ledger":0,"stockReportCounter":0,"tourneyCost":1000,"tourneyLvl":1,"stratCounter":0,"roundNum":0,"hMove":1,"vMove":1,"hMovePrev":1,"vMovePrev":1,"aa":0,"ab":0,"ba":0,"bb":0,"rounds":0,"currentRound":0,"rCounter":0,"tourneyInProg":0,"winnerPtr":0,"high":0,"pick":"10","yomi":0,"yomiBoost":1,"probeSpeed":0,"probeNav":0,"probeRep":0,"partialProbeSpawn":0,"probeHaz":0,"partialProbeHaz":0,"probesLostHaz":0,"probesLostDrift":0,"probesLostCombat":0,"probeFac":0,"probeWire":0,"probeCombat":0,"attackSpeed":0.2,"battleSpeed":0.2,"attackSpeedFlag":0,"attackSpeedMod":0.1,"probeDescendents":0,"drifterCount":0,"warTrigger":1000000,"battleID":0,"battleName":"foo","battleNameFlag":0,"maxBattles":1,"battleClock":0,"battleAlarm":10,"outcomeTimer":150,"drifterCombat":1.75,"probeTrust":0,"probeUsedTrust":0,"probeTrustCost":500,"probeLaunchLevel":0,"probeCost":100000000000000000}));
 
 
-
-Eigene Programm mit Localstorage set...
-In Angular gibt es eine app.component,clicker, game-window, in der dann der clicker und die power-bonus komopnent nagezeit wird. Außerdem gibt es eine shell/naviagtion bei der man zum game-window oder zur upgrade-list wechseln kann.Die Upgrade-list hat upgrade-list-item
-
+## 2
+DOMException: The quota has been exceeded.
+❌ QuotaExceededError: Limit erreicht!

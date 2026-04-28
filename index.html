@@ -14,8 +14,24 @@
     <h1 class="mb-4">Willkommen</h1>
 
     <a href="wmc/wmc4/storage-story/clicker/chat/chatverlauf.html" class="btn btn-primary">
-        Zum Chatverlauf
+        Zum Chatverlauf - Teil 1
     </a>
+
+<a href="#" class="btn btn-primary" onclick="checkPassword()">
+    Zum Chatverlauf - Teil 2
+</a>
+
+<script>
+function checkPassword() {
+    const pw = prompt("Bitte Passwort eingeben:");
+
+    if (pw === "1234") {
+        window.location.href = "wmc/wmc4/storage-story/clicker/chat/chatverlauf2.html";
+    } else {
+        alert("Falsches Passwort!");
+    }
+}
+</script>
 </div>
 
 <!-- Bootstrap JS -->

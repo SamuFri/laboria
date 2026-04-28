@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>IndexDB for Dummies</title>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .page {
+      width: 700px;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      line-height: 1.5;
+    }
+
+    h1, h2 {
+      color: #075e54;
+    }
+
+    code {
+      background: #f1f1f1;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 20px;
+      color: #075e54;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .warning {
+      background: #fff3cd;
+      padding: 10px;
+      border-left: 5px solid #ffcc00;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <h1>📖 IndexDB for Dummies</h1>
+
+    <h2>📌 Anforderungen</h2>
+
+    <h3>IndexDB Initial</h3>
+    <p>
+      Im Tab <b>Upgrades</b> wird eine Liste von <code>UpgradeItem</code> angezeigt.<br>
+      Die Daten kommen aus dem <code>UpgradeDbService</code>.
+    </p>
+
+    <p>
+      Im <code>UpgradeDbService</code> wird die IndexDB mit <code>idb</code> erstellt.
+      Außerdem werden dort drei Upgrades frei definiert und in der IndexDB gespeichert.
+    </p>
+
+    <p>
+      Es soll auch eine Methode geben, die alle Upgrades abfragt.
+      In <code>UpgradeListComponent</code> soll dann die Liste geladen werden.
+    </p>
+
+    <div class="warning">
+      ⚠️ Achtung: viele Dinge laufen hier asynchron bei der DB.
+    </div>
+
+    <h3>Upgrade Item</h3>
+    <p>
+      Die Upgrades sollen den Klicker-Count beeinflussen.
+    </p>
+
+    <ul>
+      <li><b>isActive</b>: gibt an, ob das Item gekauft wurde</li>
+      <li><b>multiplier</b>: Einfluss auf Klicker-Count (z.B. +10 Clicks pro Klick)</li>
+      <li><b>name</b> & <b>description</b>: werden angezeigt</li>
+      <li><b>cost</b>: wie viele Clicks beim Aktivieren abgezogen werden</li>
+    </ul>
+
+    <a href="../chat/chatverlauf2.html" class="back">← zurück zum Chat</a>
+
+  </div>
+
+</body>
+
+</html>

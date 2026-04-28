@@ -1,27 +1,16 @@
 ## Aufgabe 1
 
-erreiche im Spiel 10000 Paperclips: 
+Erreiche im Spiel 10000 Paperclips so schnell wie möglich.
+https://www.decisionproblem.com/paperclips/
+Tipp: Manipuliere den LocalStorage im Browser.
 
-Manipuliere den Localstorage
+### Aufgabe 1.1
+Erreiche im Spiel 10000 Paperclips. Löse das Spiel mithilfe von JavaScript Code in dem den zu Localstorage manipulierst.
+Dokumentiere deine Lösung/Code.
 
-
-
-
-
-## Aufgabe 2
+## Aufgabe 2 - Voller Speicher
 Öffne die Datei fill_localstorage.html - welcher Fehler wird in der Konsole ausgegeben bei vollem Speicher.
 Klicke so oft wie du kannst auf den Button bei unterschiedlichen Browsern gibt es unterschiedliche Speicherkapazitäten.
 
-## Aufgabe 3
-Eigene Programm mit Localstorage set...
-
-In Angular gibt es eine app.component,clicker, game-window, in der dann der clicker und die power-bonus komopnent nagezeit wird. Außerdem gibt es eine shell/naviagtion bei der man zum game-window oder zur upgrade-list wechseln kann.Die Upgrade-list hat upgrade-list-item
-
-- Localstorage -> Speichert aktuellen Klicker Count
-    - Button - Konvertiere 100 Klicks zu Diamanten -> neuer Localstorage Eintrag
-- Sessionstorage -> Bonus sobald man 1min online ist -> Klicker Count 2
-    - Wenn 2min Online soll der Klicker Count auf 4 gehen
-
-- Upgrades sind in der Indexed DB gespeichert
-    - Zeige alle Upgrades in der Upgrade-list an
-    - Admin Tab, erstellt neue Updates
+## Aufgabe 3 - Checke deine Nachrichten
+https://laboria.onrender.com/ - gehe zu deinem Chatverlauf
